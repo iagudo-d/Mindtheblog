@@ -1,0 +1,30 @@
+﻿@font-face {																	/* DEFINICION DE UNA FUENTE */
+
+    font-family: 'sansation';													/* Nombre que utilizaremos para la fuente */
+    src: url('sansation/Sansation_Regular.ttf') format('truetype');				/* Ubicacion de la fuente */
+}
+@font-face {																	/* DEFINICION DE UNA FUENTE */
+
+    font-family: 'sansation-Bold';												/* Nombre que utilizaremos para la fuente */
+    src: url('sansation/Sansation_Bold.ttf') format('truetype');				/* Ubicacion de la fuente */
+}
+@font-face {																	/* DEFINICION DE UNA FUENTE */
+
+    font-family: 'sansation-Italic';											/* Nombre que utilizaremos para la fuente */
+    src: url('sansation/Sansation_Italic.ttf') format('truetype');				/* Ubicacion de la fuente */
+}
+@font-face {																	/* DEFINICION DE UNA FUENTE */
+
+    font-family: 'sansation-Bold-Italic';										/* Nombre que utilizaremos para la fuente */
+    src: url('sansation/Sansation_Bold_Italic.ttf') format('truetype');			/* Ubicacion de la fuente */
+}
+@font-face {																	/* DEFINICION DE UNA FUENTE */
+
+    font-family: 'sansation-Light';												/* Nombre que utilizaremos para la fuente */
+    src: url('sansation/Sansation_Light.ttf') format('truetype');				/* Ubicacion de la fuente */
+}
+@font-face {																	/* DEFINICION DE UNA FUENTE */
+
+    font-family: 'sansation-Light-Italic';										/* Nombre que utilizaremos para la fuente */
+    src: url('sansation/Sansation_Light_Italic.ttf') format('truetype');		/* Ubicacion de la fuente */
+}

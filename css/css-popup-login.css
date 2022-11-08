@@ -1,0 +1,180 @@
+﻿.fondo-popup-login{
+	width:100%;
+	height:100%;
+	margin:0px auto;
+	background-color:rgba(20,20,20,0.7);
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:2;
+}
+.popup-login{
+	width:300px;
+	height:400px;
+	margin:0px auto;
+	background-color:rgba(240,240,240,1);
+	border-radius:5px;
+	box-shadow:0px 0px 20px rgba(20,20,20,1);
+	position:fixed;
+	z-index:4;
+}
+.icono-cerrar-popup{
+	width:20px;
+	height:20px;
+	position:absolute;
+	top:10px;
+	left:270px;
+	background-color:rgba(0,0,0,0.2);
+	padding:5px;
+	border-radius:5px;
+	z-index:5;
+	cursor:pointer;
+}
+.popup-login p{
+	margin:0px;
+	padding:0px;
+}
+.contenedor-cabecera-login{
+	width:300px;
+	height:130px;
+	margin:0px auto;
+	border-radius:5px 5px 0px 0px;
+	position:relative;
+	text-align:center;
+}
+.contenedor-cabecera-login img{
+	height:100px;
+	margin:15px auto;
+	border-radius:100px;
+	position:relative;
+}
+.contenedor-formulario-login{
+	width:300px;
+	height:270px;
+	margin:0px auto;
+	padding:5px;
+	border-radius:0px 0px 5px 5px;
+	position:relative;
+	text-align:center;
+	background-color:rgba(90,90,90,0.5);
+}
+.cont-form-log-usuario-contraseña{
+	width:290px;
+	height:120px;
+	margin:5px auto;
+	position:relative;
+}
+.cont-form-log-recordarme{
+	width:290px;
+	height:25px;
+	margin:5px auto;
+	position:relative;
+}
+.cont-form-log-logearme{
+	width:290px;
+	height:25px;
+	margin:10px auto 5px;
+	position:relative;
+}
+.cont-form-log-registrarme{
+	width:290px;
+	height:25px;
+	margin:5px auto;
+	position:relative;
+}
+.estructura-formulario-login-recordarme{
+	width:120px;
+	height:25px;
+	margin:0px auto;
+	position:relative;
+	line-height:25px;
+	text-align:left;
+	text-indent:15px;
+}
+#formLoginRecordarContraseña{
+	width:15px;
+	height:15px;
+	margin:5px auto;
+	float:left;
+}
+.estructura-formulario-login-datos{
+	width:250px;
+	height:25px;
+	margin:4px auto;
+	position:relative;
+	line-height:25px;
+	text-align:center;
+}
+.estructura-formulario-login-datos input, .estructura-formulario-login-datos label{
+	width:200px;
+	height:25px;
+	margin:0px auto;
+	position:relative;
+	line-height:25px;
+	text-align:center;
+	border:none;
+	box-sizing: border-box;
+	box-shadow:0px 0px 2px rgba(20,20,20,1);
+}
+.estructura-formulario-login, .estructura-formulario-login{
+	width:250px;
+	height:25px;
+	margin:0px auto;
+	position:relative;
+	line-height:25px;
+	text-align:center;
+}
+.estructura-formulario-login input, .estructura-formulario-login label{
+	width:160px;
+	height:23px;
+	margin:0px auto;
+	position:relative;
+	background-color:rgba(200,200,200,1);
+	line-height:25px;
+	text-align:center;
+	border:none;
+	box-sizing: border-box;
+	box-shadow:0px 0px 2px rgba(20,20,20,1);
+	cursor:pointer;
+}
+.cont-form-recuperar-claves-email{
+	width:290px;
+	height:120px;
+	margin:5px auto;
+	position:relative;
+}
+.estructura-formulario-recuperar-contraseña1{
+	width:250px;
+	height:50px;
+	margin:4px auto;
+	position:relative;
+	line-height:25px;
+	text-align:center;
+}
+.estructura-formulario-recuperar-contraseña2{
+	width:250px;
+	height:75px;
+	margin:4px auto;
+	position:relative;
+	line-height:25px;
+	text-align:center;
+}
+.estructura-formulario-recuperar-datos{
+	width:250px;
+	height:25px;
+	margin:10px auto;
+	position:relative;
+	line-height:25px;
+	text-align:center;
+}
+.estructura-formulario-recuperar-datos  input{
+	width:200px;
+	height:25px;
+	margin:0px auto;
+	position:relative;
+	line-height:25px;
+	text-align:center;
+	border:none;
+	box-sizing: border-box;
+	box-shadow:0px 0px 2px rgba(20,20,20,1);
+}

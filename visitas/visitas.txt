@@ -1,0 +1,137 @@
+FECHA VISITA: Sat, 30 May 2015 14:04:40 +0000
+IP VISITA: 83.55.42.91
+PHP SELF: /index.php
+GATEWAY_INTERFACE: CGI/1.1
+SERVER_ADDR: 185.28.20.225
+SERVER_NAME: www.iagudotesteo.hol.es
+SERVER_SOFTWARE: Apache
+SERVER_PROTOCOL: HTTP/1.1
+REQUEST_METHOD: GET
+REQUEST_TIME: 1432994680
+REQUEST_TIME_FLOAT: 1432994680.9375
+QUERY_STRING: 
+DOCUMENT_ROOT: /home/u260010493/public_html
+HTTP_ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_CHARSET: 
+HTTP_ACCEPT_ENCODING: gzip, deflate, sdch
+HTTP_ACCEPT_LANGUAGE: es-ES,es;q=0.8
+HTTP_CONNECTION: close
+HTTP_HOST: www.iagudotesteo.hol.es
+HTTP_REFERER: http://www.iagudotesteo.hol.es/
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36
+HTTPS: 
+REMOTE_ADDR: 83.55.42.91
+FECHA VISITA: Sat, 30 May 2015 14:08:31 +0000
+IP VISITA: 83.55.42.91
+PHP SELF: /index.php
+GATEWAY_INTERFACE: CGI/1.1
+SERVER_ADDR: 185.28.20.225
+SERVER_NAME: www.iagudotesteo.hol.es
+SERVER_SOFTWARE: Apache
+SERVER_PROTOCOL: HTTP/1.1
+REQUEST_METHOD: GET
+REQUEST_TIME: 1432994911
+REQUEST_TIME_FLOAT: 1432994911.4168
+QUERY_STRING: 
+DOCUMENT_ROOT: /home/u260010493/public_html
+HTTP_ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+HTTP_ACCEPT_CHARSET: 
+HTTP_ACCEPT_ENCODING: gzip, deflate, sdch
+HTTP_ACCEPT_LANGUAGE: es-ES,es;q=0.8,en;q=0.6
+HTTP_CONNECTION: close
+HTTP_HOST: www.iagudotesteo.hol.es
+HTTP_REFERER: 
+HTTP_USER_AGENT: Mozilla/5.0 (Linux; Android 4.2.1; bq Aquaris 5.7 Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safari/537.36
+HTTPS: 
+REMOTE_ADDR: 83.55.42.91
+FECHA VISITA: Mon, 01 Jun 2015 19:12:39 +0000
+IP VISITA: 127.0.0.1
+VISITADO INDEX
+HTTP_ACCEPT_LANGUAGE: es-ES,es;q=0.8
+HTTP_REFERER: http://localhost/proyectos/
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36
+
+FECHA VISITA: Mon, 01 Jun 2015 19:12:44 +0000
+IP VISITA: 127.0.0.1
+VISITADO ARTICULO
+HTTP_ACCEPT_LANGUAGE: es-ES,es;q=0.8
+HTTP_REFERER: http://localhost/proyectos/MIND%20THE%20BLOG/
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36
+
+FECHA VISITA: Sat, 26 Sep 2020 22:45:37 +0200
+IP VISITA: ::1
+VISITADO INDEX
+HTTP_ACCEPT_LANGUAGE: es-ES,es;q=0.9,en;q=0.8
+HTTP_REFERER: http://localhost/PROJECTS/
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+
+FECHA VISITA: Sat, 26 Sep 2020 22:47:20 +0200
+IP VISITA: ::1
+VISITADO ARTICULO
+HTTP_ACCEPT_LANGUAGE: es-ES,es;q=0.9,en;q=0.8
+HTTP_REFERER: http://localhost/PROJECTS/MIND%20THE%20BLOG/
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+
+FECHA VISITA: Sat, 26 Sep 2020 22:59:31 +0200
+IP VISITA: ::1
+VISITADO INDEX
+HTTP_ACCEPT_LANGUAGE: es-ES,es;q=0.9,en;q=0.8
+HTTP_REFERER: http://localhost/PROJECTS/MIND%20THE%20BLOG/articulos/articulo1.php
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+
+FECHA VISITA: Sat, 26 Sep 2020 22:59:32 +0200
+IP VISITA: ::1
+VISITADO ARTICULO
+HTTP_ACCEPT_LANGUAGE: es-ES,es;q=0.9,en;q=0.8
+HTTP_REFERER: http://localhost/PROJECTS/MIND%20THE%20BLOG/index.php
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+
+FECHA VISITA: Tue, 06 Oct 2020 23:18:10 +0200
+IP VISITA: ::1
+VISITADO INDEX
+HTTP_ACCEPT_LANGUAGE: es-ES,es;q=0.9,en;q=0.8
+HTTP_REFERER: http://localhost/PROJECTS/
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+
+FECHA VISITA: Tue, 06 Oct 2020 23:18:37 +0200
+IP VISITA: ::1
+VISITADO ARTICULO
+HTTP_ACCEPT_LANGUAGE: es-ES,es;q=0.9,en;q=0.8
+HTTP_REFERER: http://localhost/PROJECTS/MIND%20THE%20BLOG/
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+
+FECHA VISITA: Thu, 08 Oct 2020 00:34:58 +0200
+IP VISITA: ::1
+VISITADO ARTICULO
+HTTP_ACCEPT_LANGUAGE: es-ES,es;q=0.9,en;q=0.8
+HTTP_REFERER: http://localhost/PROJECTS/MIND%20THE%20BLOG/
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+
+FECHA VISITA: Sun, 01 Aug 2021 22:21:07 +0200
+IP VISITA: ::1
+VISITADO INDEX
+HTTP_ACCEPT_LANGUAGE: es-ES,es;q=0.9,en;q=0.8
+HTTP_REFERER: http://localhost/PROJECTS/
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+
+FECHA VISITA: Sun, 01 Aug 2021 22:22:10 +0200
+IP VISITA: ::1
+VISITADO ARTICULO
+HTTP_ACCEPT_LANGUAGE: es-ES,es;q=0.9,en;q=0.8
+HTTP_REFERER: http://localhost/PROJECTS/MIND%20THE%20BLOG/
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+
+FECHA VISITA: Sun, 01 Aug 2021 22:23:32 +0200
+IP VISITA: ::1
+VISITADO INDEX
+HTTP_ACCEPT_LANGUAGE: es-ES,es;q=0.9,en;q=0.8
+HTTP_REFERER: http://localhost/PROJECTS/MIND%20THE%20BLOG/articulos/articulo1.php
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+
+FECHA VISITA: Sun, 01 Aug 2021 22:23:35 +0200
+IP VISITA: ::1
+VISITADO ARTICULO
+HTTP_ACCEPT_LANGUAGE: es-ES,es;q=0.9,en;q=0.8
+HTTP_REFERER: http://localhost/PROJECTS/MIND%20THE%20BLOG/index.php
+HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+

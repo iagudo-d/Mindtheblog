@@ -1,0 +1,257 @@
+﻿/* FORMULARIO DE REGISTRO */
+
+#sectionformularioRegistro p, #sectionformularioRegistro h1{
+	text-align:center;
+}
+#formularioRegistro{
+	width:60%;
+	display:block;
+	margin:50px auto;
+	font-size:0.9em;
+	font-family:sansation,arial,calibri;
+}
+.form-registro-estructura-label-input{
+	width:100%;
+	height:40px;
+	margin:5px 0px;
+	position:relative;
+}
+	.form-registro-estructura-label-input label{
+		width:32%;
+		height:40px;
+		background-color:rgba(210,210,210,1);
+		float:left;
+		line-height:40px;
+		text-indent:10px;
+		display:block;
+	}
+	.form-registro-estructura-input-text{
+		width:68%;
+		height:40px;
+		background-color:rgba(220,220,220,1);
+		float:left;
+		line-height:40px;
+		text-indent:10px;
+		display:block;
+		border:none;
+	}
+.form-registro-estructura-label-input-radio{
+	width:100%;
+	height:60px;
+	margin:5px 0px;
+	position:relative;
+}
+	.form-registro-estructura-label-input-radio label{
+		width:32%;
+		height:60px;
+		background-color:rgba(210,210,210,1);
+		float:left;
+		line-height:60px;
+		text-indent:10px;
+		display:block;
+	}
+	.form-registro-estructura-input-radio{
+		width:10%;
+		height:26px;
+		background-color:rgba(220,220,220,0);
+		float:left;
+		line-height:26px;
+		text-indent:10px;
+		display:block;
+		margin:2px 0px;
+	}
+	.form-registro-estructura-label-input-radio div{
+		width:58%;
+		height:30px;
+		background-color:rgba(220,220,220,1);
+		float:left;
+		line-height:30px;
+		text-indent:10px;
+		display:block;
+	}
+.form-registro-estructura-input-submit{
+		width:30%;
+		height:40px;
+		margin:0px 35%;
+		background-color:rgba(190,190,190,1);
+		float:left;
+		line-height:40px;
+		display:block;
+		border:none;
+		
+	}
+.form-registro-estructura-label-input-imagen-oculto{
+	width:100%;
+	height:40px;
+	margin:5px 0px;
+	position:relative;
+}
+.form-registro-estructura-label-input-imagen-visualizado{
+	width:100%;
+	height:200px;
+	margin:5px 0px;
+	position:relative;
+}
+	.form-registro-estructura-label-input-imagen-visualizado label{
+		width:50%;
+		height:200px;
+		background-color:rgba(210,210,210,1);
+		float:left;
+		line-height:200px;
+		text-indent:10px;
+		display:block;
+	}
+.form-registro-estructura-seleccion-avatar{
+	height:200px;
+	width:64%;
+	margin:0px;
+	position:relative;
+	background-color:rgba(210,210,210,1);
+	float:left;
+}
+.form-registro-estructura-previa-avatar{
+	height:200px;
+	width:36%;
+	margin:0px;
+	position:relative;
+	background-color:rgba(220,220,220,1);
+	float:left;
+}
+.form-registro-estructura-previa-avatar img{
+	height:100%;
+	margin:0px auto;
+	position:relative;
+	background-color:rgba(210,210,210,1);
+	display:block;
+}
+.form-registro-estructura-input-text-archivo{
+	width:50%;
+	height:100px;
+	background-color:rgba(220,220,220,1);
+	float:left;
+	line-height:40px;
+	text-indent:10px;
+	display:block;
+	border:none;
+}
+.form-registro-estructura-input-button{
+	width:50%;
+	height:100px;
+	background-color:rgba(190,190,190,1);
+	float:left;
+	line-height:40px;
+	display:block;
+	border:none;
+}
+.form-registro-estructura-label-input-imagen-oculto{
+	display:none;
+}
+	
+/* TOOLTIP VALIDACION */
+
+#loading{
+	width:40px;
+	height:40px;
+	margin:0px auto;
+	position:relative;
+}
+#iconoLoading{
+	width:40px;
+	height:40px;
+}
+.valid{
+	color:green;
+	list-style-image:url(../img/img-varias/tick.png);
+}
+.invalid{
+	color:red;
+	list-style-image:url(../img/img-varias/cross.png);
+}
+.listado-requerimientos{
+	list-style:square inside;
+}
+
+	/* tooltip validación password 1  tooltip validación password 2 , tooltip validación email */
+	
+#tooltipRequerimientosPassword1{
+	width:70%;
+	height:200px;
+	background-color:rgba(240,240,240,1);
+	position:absolute;
+	top:50px;
+	left:15%;
+	border-radius:5px;
+	box-shadow:0px 4px 15px rgba(120,120,120,0.8);
+	z-index:2;
+	display:none;
+}
+#tooltipRequerimientosPassword2, #tooltipRequerimientosEmail, #tooltipRequerimientosNombre, #tooltipRequerimientosApellido1, #tooltipRequerimientosApellido2{
+	width:70%;
+	height:80px;
+	background-color:rgba(240,240,240,1);
+	position:absolute;
+	top:50px;
+	left:15%;
+	border-radius:5px;
+	box-shadow:0px 4px 15px rgba(120,120,120,0.8);
+	z-index:2;
+	display:none;
+}
+#tooltipRequerimientosPassword1:before, #tooltipRequerimientosPassword2:before, #tooltipRequerimientosEmail:before, #tooltipRequerimientosNombre:before, #tooltipRequerimientosApellido1:before, #tooltipRequerimientosApellido2:before{	
+		/* CREA EL PICO DEL BOCADILLO */
+	content: '';
+	height: 0px;
+	width: 0px;
+	position: absolute;
+	display: block;
+	border-width: 0px 15px 10px 15px;
+	border-style: solid;
+	border-color: rgba(240,240,240,1) transparent;
+	top: -10px;
+	left: 30%;
+}
+#tooltipRequerimientosPassword1 li, #tooltipRequerimientosPassword1 h4, #tooltipRequerimientosPassword2 li, #tooltipRequerimientosPassword2 h4, #tooltipRequerimientosEmail li, #tooltipRequerimientosEmail h4, #tooltipRequerimientosNombre li, #tooltipRequerimientosNombre h4, #tooltipRequerimientosApellido1 li, #tooltipRequerimientosApellido1 h4, #tooltipRequerimientosApellido2 li, #tooltipRequerimientosApellido2 h4{
+	text-align:center;
+	padding:0px;
+	position:relative;
+	width:100%;
+	height:40px;
+	line-height:40px;
+}
+	
+
+	/* tooltip validación nombre usuario */
+	
+	
+#tooltipRequerimientosNombreUsuario{
+	width:70%;
+	height:80px;
+	background-color:rgba(240,240,240,1);
+	position:absolute;
+	top:50px;
+	left:15%;
+	border-radius:5px;
+	box-shadow:0px 4px 15px rgba(120,120,120,0.8);
+	z-index:2;
+	display:none;
+}
+#tooltipRequerimientosNombreUsuario:before{	
+	content: '';
+	height: 0px;
+	width: 0px;
+	position: absolute;
+	display: block;
+	border-width: 0px 15px 10px 15px;
+	border-style: solid;
+	border-color: rgba(240,240,240,1) transparent;
+	top: -10px;
+	left: 30%;
+}
+#tooltipRequerimientosNombreUsuario li, #tooltipRequerimientosNombreUsuario h4{
+	text-align:center;
+	padding:0px;
+	position:relative;
+	width:100%;
+	height:40px;
+	line-height:40px;
+}

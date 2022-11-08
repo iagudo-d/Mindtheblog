@@ -1,0 +1,219 @@
+
+/* COMENTARIOS */
+.area-comentarios{
+	width:80%;
+	margin:0px auto;
+	padding:0px;
+	background-color:rgba(200,200,200,1);
+	position:relative;
+}
+.comentario-individual{
+	width:100%;
+	padding:0px;
+	background-color:;
+	position:relative;
+}
+
+
+	/* AVATAR */
+.comentario-principal-avatar{
+	width:20%;
+	margin:0px;
+	padding:0px;
+	background-color:;
+	position:relative;
+	float:left;
+}
+.comentario-principal-avatar img{
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:10px;
+	right:10px;
+	z-index:11;
+}
+	
+	/* BOCADILLO */
+.comentario-principal-bocadillo{
+	width:80%;
+	margin:0px 0px 0px 20%;
+	padding:10px;
+	background-color:;
+	position:relative;
+}
+.comentario-principal-bocadillo-cabecera{
+	width:100%;
+	height:50px;
+	padding:10px;
+	background-color:rgba(120,120,120,1);
+	position:relative;
+	border-radius:5px 5px 0px 0px;
+}
+.comentario-principal-bocadillo-cabecera:before{	/* CREA EL PICO DEL BOCADILLO */
+	content: '';
+	height: 0;
+	width: 0;
+	position: absolute;
+	display: block;
+	border-width: 15px 15px 15px 0px;
+	border-style: solid;
+	border-color: transparent rgba(120,120,120,1);
+	top: 20%;
+	left: -14px;
+}
+.comentario-principal-bocadillo-cabecera-usuario{
+	position:relative;
+	width:50%;
+	height:100%;
+	background-color:rgba(80,80,80,1);
+	float:left;
+}
+.comentario-principal-bocadillo-cabecera-botones{
+	position:relative;
+	width:30%;
+	height:100%;
+	background-color:rgba(80,80,80,1);
+	float:right;
+}
+.comentario-principal-bocadillo-texto{
+	width: 100%;
+	padding: 10px;
+	background-color: rgba(150,150,150,1);
+	position: relative;
+	border-radius: 0px 0px 5px 5px;
+}
+
+
+
+/* RESPUESTAS */
+
+	/* AVATAR */
+.comentario-respuesta-avatar{
+	width:30%;
+	margin:0px;
+	padding:0px;
+	background-color:;
+	position:relative;
+	float:left;
+}
+.comentario-respuesta-avatar img{
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:10px;
+	right:10px;
+	z-index:11;
+}
+
+	
+	/* BOCADILLO */
+
+.comentario-respuesta-bocadillo{
+	width:70%;
+	margin:0px 0px 0px 30%;
+	padding:10px;
+	background-color:;
+	position:relative;
+}
+.comentario-respuesta-bocadillo-cabecera{
+	width:100%;
+	height:50px;
+	padding:10px;
+	background-color:rgba(120,120,120,1);
+	position:relative;
+	border-radius:5px 5px 0px 0px;
+}
+.comentario-respuesta-bocadillo-cabecera:before{	/* CREA EL PICO DEL BOCADILLO */
+	content: '';
+	height: 0;
+	width: 0;
+	position: absolute;
+	display: block;
+	border-width: 15px 15px 15px 0px;
+	border-style: solid;
+	border-color: transparent rgba(120,120,120,1);
+	top: 20%;
+	left: -14px;
+}
+.comentario-respuesta-bocadillo-cabecera-usuario{
+	position:relative;
+	width:50%;
+	height:100%;
+	background-color:rgba(80,80,80,1);
+	float:left;
+}
+.comentario-respuesta-bocadillo-cabecera-botones{
+	position:relative;
+	width:30%;
+	height:100%;
+	background-color:rgba(80,80,80,1);
+	float:right;
+}
+.comentario-respuesta-bocadillo-texto{
+	width: 100%;
+	padding: 10px;
+	background-color: rgba(150,150,150,1);
+	position: relative;
+	border-radius: 0px 0px 5px 5px;
+}
+
+
+
+.area-comentarios:before{
+	content:'';
+	width:6px;
+	height:100%;
+	background-color:rgba(120,120,120,1);
+	position:absolute;
+	z-index:10;
+	left:10px;
+}
+.area-comentarios:after{
+	content:'';
+	width:10px;
+	height:10px;
+	background-color:rgba(120,120,120,1);
+	position:absolute;
+	z-index:10;
+	left:3px;
+	bottom:-2px;
+	border-radius:10px;
+	border-style:solid;
+	border-color:rgba(200,200,200,1);
+	border-width:5px;
+}
+
+
+
+.comentario-principal-avatar:before{
+	content:'';
+	width:100%;
+	height:6px;
+	background-color:rgba(120,120,120,1);
+	position:absolute;
+	left:10px;
+	top:32px;
+}
+
+.comentario-respuesta-bocadillo:before{
+	content: '';
+	height: 45px;
+	width: 6px;
+	position: absolute;
+	display: block;
+	top: -10px;
+	left: -10%;
+	background-color: rgba(120,120,120,1);
+	z-index:10;
+}
+.comentario-respuesta-bocadillo:after{
+	content: '';
+	height: 6px;
+	width: 10%;
+	position: absolute;
+	display: block;
+	top: 32px;
+	left: -10%;
+	background-color: rgba(120,120,120,1);
+	z-index:10;
+}

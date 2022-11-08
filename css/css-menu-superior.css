@@ -1,0 +1,240 @@
+﻿/* CABECERA */
+#imagenLogotipo1, #imagenLogotipo2{		/* Imagen logo */
+	margin:8px 20px;
+	position:relative;
+}
+#cabecera{								/* Cabecera, incluye logo y menu-horizontal */
+	width:100%;
+	margin:50px 0% 0px 0%;
+	z-index:1;
+}
+	#cabeceraPrimeraLinea{
+		width:100%;				
+		height:50px;
+		position:fixed;
+		top:0px;
+		z-index:-10;
+		background-color:rgba(180,180,180,1);
+	}
+		#contenedorLogotipo1{			/* Contenedor del logo */
+			width:378px;				
+			height:50px;
+			position:relative;
+			top:0px;
+			z-index:10;
+			float:left;
+		}
+		.logo1-visible{					/* Clase para desplazar el logo1 y hacerlo visible */
+			left:0px;
+			transition: left ease-in-out 1s;
+			transition-delay:1s;
+		}
+		.logo1-invisible{				/* Clase para desplazar el logo1 y hacerlo invisible */
+			left:-378px;
+			transition: left ease-in-out 1s;
+		}
+	/* MENU PEGAJOSO HORIZONTAL */
+	#cabeceraSegundaLinea{
+		width:100%;
+		height:50px;
+		transition: all linear 3s;
+	}
+		#contenedorLogotipo2{			/* Contenedor del logo */
+			height:50px;
+			position:relative;
+			top:0px;
+			z-index:10;
+			float:left;
+		}
+		.logo2-visible{					/* Clase para desplazar el logo2 y hacerlo visible */
+			width:136px;				
+			left:0px;
+			transition: left ease-in-out 1s, width ease-in-out 1s;
+		}
+		.logo2-invisible{				/* Clase para desplazar el logo2 y hacerlo invisible */
+			width:0px;
+			left:-136px;
+			transition: left ease-in-out 1s, width ease-in-out 1s;
+		}
+		#menuHorizontal{			
+			height:50px;
+			position:relative;
+			top:0px;
+			z-index:10;
+			float:left;
+			text-align:center;
+			line-height:40px;
+		}
+		.menuHorizontal-visible{					/* Clase para desplazar el logo2 y hacerlo visible */
+			left:0px;
+			transition: left ease-in-out 1s;
+		}
+		.menuHorizontal-invisible{				/* Clase para desplazar el logo2 y hacerlo invisible */
+			left:0px;
+			transition: left ease-in-out 1s;
+		}
+			.menuSecciones{
+				width:250px;
+				height:50px;
+				float:left;
+			}
+			.menuRedesSociales{
+				width:20%;
+				height:50px;
+				float:right;
+			}
+			.menuSecciones li{
+				width:20%;
+				height:50px;
+				float:left;
+			}
+			.menuSecciones li a{
+				height:50px;
+			}
+			.menuSecciones li a:hover{
+				background-color:rgba(200,200,200,0.6);
+			}
+			.menuSecciones li a img{
+				width:40px;
+				height:40px;
+				margin:5px;
+				padding:0px;
+				background-color:rgba(50,50,50,0.8);
+				transition: all linear 3s;
+			}
+			.menuRedesSociales li img{
+				width:25%;
+				height:50px;
+				float:left;
+				text-align:center;
+				line-height:50px;
+			}
+	
+		/* FUNCIONAMIENTO MENU PEGAJOSO HORIZONTAL */
+		.cabeceraSegundaLineaEstadoFixed{						/* Clase para anclar el menu pegajoso */
+			position:fixed;
+			z-index:1;
+			left:0%;
+			top:0;
+			background-color:rgba(70,70,70,1);
+		}
+		.cabeceraSegundaLineaEstadoUnfixed{					/* Clase para desanclar el menu pegajoso */
+			position:relative;
+			z-index:1;
+			background-color:rgba(110,110,110,1);
+		}
+		.principalEstadoFixed{							/* Clase para modificar el margen al anclar el menu pegajoso */
+			width:100%;
+			margin:50px 0px 0px 0px;
+			float:left;
+			background-color:rgba(100,100,100,1);
+		}
+		.principalEstadoUnfixed{						/* Clase para modificar el margen al desanclar el menu pegajoso */
+			width:100%;
+			margin:0px 0px 0px 0px;
+			float:left;
+			background-color:rgba(180,180,180,1);
+		}
+		/* FUNCIONAMIENTO MENU PEGAJOSO HORIZONTAL */
+	/* MENU PEGAJOSO HORIZONTAL */
+	
+	/* MIGAS DE PAN */
+	
+	.migas-de-pan { 		/* el rectángulo con la lista */
+		margin: 0;
+		overflow: hidden;
+		padding-left:25px;
+	}
+	.migas-de-pan li { /* cada item de la lista */
+		float: left;
+	}
+	.migas-de-pan li a { /* cada item es un enlace */
+		color: #FFF;
+		display: block;
+		float: left;
+		padding: 0px 8px 0px 32px;
+		margin:5px 0px 5px 0px;
+		position: relative; 
+		background-color: rgba(130,130,130,1);		/* el color de fondo del item que está a la izquierda */
+	}
+	.migas-de-pan li a:after {
+		content: " "; 
+		display: block; 
+		left: 100%;
+		height: 0;
+		position: absolute;
+		top: 0%;
+		width: 0; 
+		z-index: 2;
+		border-bottom: 20px solid transparent;
+		border-left: 20px solid rgba(130,130,130,1);	/* esto creará el primer triángulo */
+		border-top: 20px solid transparent;
+	} 
+	.migas-de-pan li a:before { /* el siguiente enlace */
+		content: " "; 
+		display: block; 
+		height: 0;
+		left: 100%;
+		margin-left: 1px;
+		position: absolute;
+		width: 0; 
+		z-index: 1;
+		border-bottom: 20px solid transparent;
+		border-left: 20px solid rgba(110,110,110,1);		/* Este color define el color que aparecera entre los espacios de los item */
+		border-top: 20px solid transparent;
+	}
+	.migas-de-pan li:first-child a {padding-left: 10px;}
+	.migas-de-pan li:nth-child(2) a {background-color: rgba(150,150,150,1);}
+	.migas-de-pan li:nth-child(2) a:after {border-left-color: rgba(150,150,150,1);}
+	.migas-de-pan li:nth-child(3) a {background-color: rgba(170,170,170,1);}
+	.migas-de-pan li:nth-child(3) a:after {border-left-color: rgba(170,170,170,1);}
+	.migas-de-pan li:nth-child(4) a {background-color: rgba(190,190,190,1);}
+	.migas-de-pan li:nth-child(4) a:after {border-left-color: rgba(190,190,190,1);}
+	.migas-de-pan li:last-child a {
+		background: none repeat scroll 0 0 transparent !important;
+		color: rgba(190,190,190,1);
+		cursor: default;
+	}
+	/* el efecto hover */
+	.migas-de-pan li:last-child a:after {border: none;}
+	.migas-de-pan li:last-child a:before {border: none;}
+	.migas-de-pan li a:hover {background-color: rgba(210,210,210,1);}						/* da color de hover al elemento con el texto */
+	.migas-de-pan li a:hover:after {border-left-color: rgba(210,210,210,1) !important;}		/* da color de hover al pico del elemento correspondiente */
+
+	
+	/* MIGAS DE PAN */
+	
+	/* CONTENEDOR LOGIN */
+	
+	.contenedor-login{
+		width:300px;
+		height:50px;
+		float:left;
+		position:relative;
+	}
+	.contenedor-login a{
+		width:50px;
+		height:50px;
+		float:right;
+	}
+	.contenedor-login a:hover{
+		background-color:rgba(200,200,200,0.6);
+	}
+	.contenedor-login a img{
+		width:40px;
+		height:40px;
+		margin:5px;
+		padding:0px;
+		background-color:rgba(50,50,50,0.8);
+		transition: all linear 3s;
+	}
+	.contenedor-login img{
+		width:25%;
+		height:50px;
+		float:left;
+		text-align:center;
+		line-height:50px;
+	}
+	
+	/* CONTENEDOR LOGIN */
+/* CABECERA */

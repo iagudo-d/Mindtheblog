@@ -1,0 +1,11 @@
+﻿html, body{
+	margin:0;
+	padding:0;
+	width:100%;
+	min-height:300px;
+}
+body{
+	position:relative;
+	background:url("../img/img-varias/en-construccion.jpg");
+	background-size:cover;
+}

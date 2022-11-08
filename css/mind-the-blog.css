@@ -1,0 +1,314 @@
+﻿@font-face {
+    font-family: 'comfortaabold';
+    src: url('confortabold/comfortaa-bold-webfont.eot');
+    src: url('confortabold/comfortaa-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('confortabold/comfortaa-bold-webfont.woff') format('woff'),
+         url('confortabold/comfortaa-bold-webfont.ttf') format('truetype'),
+         url('confortabold/comfortaa-bold-webfont.svg#comfortaabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {																	/* DEFINICION DE UNA FUENTE */
+
+    font-family: 'poetsenone';													/* Nombre que utilizaremos para la fuente */
+    src: url('poetsenone/PoetsenOne-Regular.ttf') format('truetype');			/* Ubicacion de la fuente */
+	font-stretch:normal;														/* Define el estiramiento de la fuente */
+    font-weight: 1000;															/* Define lo negrita que es la fuente */
+    font-style: normal;															/* Define el estilo de la fuente, normal italic u oblique */
+}
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family:sansation,arial,calibri;
+}
+p, h1, textarea{
+	margin:0px;
+	padding:1em;
+	font-family:sansation,arial,calibri;
+}
+a{
+	text-decoration:none;
+	display:block;
+}
+ul{
+	list-style:none;
+	overflow:hidden;
+}
+body{
+	background-color:rgba(255,255,255,1);
+	width:100%;
+	height:100%;
+}
+/* ASIDE IZQUIERDO */
+#asideIzquierdo{
+	width:15%;
+	float:left;
+	min-height:100px;
+}
+	/* MENU PEGAJOSO VERTICAL */
+	#menuVertical{
+	width:100%;
+	}
+	#menuVertical ul li{
+		width:100%;
+		height:50px;
+		float:left;
+		text-align:center;
+		line-height:50px;
+	}
+	#menuVertical ul li a{
+		/*width:50px;*/
+		height:50px;
+		margin:0px auto;
+	}
+	#menuVertical ul li a img{
+		padding:0px;
+	}
+	#menuVertical ul li a:hover{
+		background-color:rgba(200,200,200,1);
+	}
+/* ASIDE IZQUIERDO */
+
+/* ASIDE DERECHO */
+#asideDerecho{
+	width:15%;
+	float:left;
+	min-height:100px;
+}	
+/* ASIDE DERECHO */
+
+/* MAIN */
+#main{
+	width:70%;
+	float:left;
+	background-color:rgba(230,230,230,1);
+}
+	/* ARTICULO */
+	#principal{
+		transition: background-color linear 3s;
+	}
+	.separador-articulos{
+		width:80%;
+		height:2px;
+		background-color:rgba(180,180,180,1);
+		margin:5px auto;
+	}
+		/* FORMATO COMENTARIOS 
+		.contenedor-comentario{
+			width:80%;
+			height:150px;
+			margin:0px auto;
+		}
+		.contenedor-comentario textarea{
+			width:100%;
+			height:130px;
+			margin:10px auto;
+			background-color:rgba(230,230,230,1);
+			resize:none;
+		}*/
+		/* FORMATO COMENTARIOS */
+	/* ARTICULO */
+/* MAIN */
+
+/* PIE DE PAGINA */
+#pieDePagina{
+	width:100%;
+	margin:auto;
+	float:left;
+	min-height:100px;
+	transition: background-color linear 3s;
+}
+	.pieDePaginaEstadoUnfixed{
+			background-color:rgba(180,180,180,1);
+	}
+	.pieDePaginaEstadoFixed{
+			background-color:rgba(100,100,100,1);
+	}
+/* PIE DE PAGINA */
+section{
+}
+
+/* ARTICLE */
+article{
+	width:100%;
+	padding:0px;
+	background-color:rgba(230,230,230,1);
+}
+article a{
+	display:inline;
+	font-family:sansation,arial,calibri;
+}
+article p{
+	width:80%;
+	margin:0px auto;
+	background-color:rgba(230,230,230,1);
+	line-height:1.5em;
+	text-indent:3em;
+	font-family:sansation-Light,arial,calibri;
+	word-spacing:7px;
+}
+.article-img{
+	width:80%;
+	display:block;
+	padding:1em;
+	margin:0px auto;
+}
+article iframe{
+	width:80%;
+	display:block;
+	margin:0px auto;
+}
+.datos-creacion-articulo{
+	width:80%;
+	margin:0px auto;
+	line-height:1.4em;
+	font-size:1em;
+	padding:1em;
+	background-color:rgba(220,220,220,0.8);
+	border-radius:5px;
+}
+.titular-articulo{
+	width:80%;
+	margin:0px auto;
+	background-color:rgba(230,230,230,1);
+	line-height:25px;
+	font-family:sansation-Bold,arial,calibri;
+	font-size:25px;
+	padding:1em;
+}
+.titular-articulo h1{
+	line-height:30px;
+	font-family:sansation-Bold,arial,calibri;
+	font-size:30px;
+}
+.fecha-articulo{
+	display:block;
+	float:right;
+	margin-left:35px;
+}
+.autor-articulo{
+	display:block;
+	float:right;
+}
+/* ARTICLE */
+
+
+	/* BOTONES COMPARTIR */
+	.contenedorCompartir{
+		width:80%;
+		height:150px;
+		margin:0px auto;
+	}
+	.contenedorCompartir ul{
+		width:210px;
+		height:150px;
+		margin:0px auto;
+	}
+	.contenedorCompartir  li{
+		width:50px;
+		height:50px;
+		float:left;
+		text-align:center;
+		line-height:50px;
+		margin:50px 10px;
+	}
+	.contenedorCompartir  li img{
+		width:50px;
+		padding:0px;
+		transition: all linear 3s;
+	}
+	.botonCompartir{
+		width:25%;
+		height:50px;
+		margin:50px 0px;
+		float:left;
+	}
+	/* BOTONES COMPARTIR */
+/* ARTICLE */
+
+/* MANTENIMIENTO */
+
+#enConstruccionContenido{
+	background-color:black;
+	background-image:url("../img/img-varias/en-construccion.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center center;
+	position:relative;
+	width:100%;
+	height:100%;
+}
+
+/* MANTENIMIENTO */
+
+
+/* COOKIES */
+
+.popup-cookies{
+	width:100%;
+	background-color:rgba(0,0,0,0.9);
+	position:fixed;
+	top:100%;
+	transition: top linear 1s;
+	z-index:100;
+}
+.popup-cookies-advertencia{
+	width:80%;
+	margin:0px auto;
+	position:relative;
+}
+.popup-cookies-advertencia p{
+	width:100%;
+	color:white;
+	line-height:20px;
+	font-size:0.9em;
+	text-align:center;
+}
+.popup-cookies-botones{
+	width:80%;
+	height:50px;
+	margin:0px auto;
+	position:relative;
+}
+.popup-cookies-botones-contenedor{
+	width:250px;
+	height:30px;
+	position:relative;
+	margin:0px auto;
+	top:10px;
+}
+.boton-aceptar-cookies{
+	width:100px;
+	height:30px;
+	position:relative;
+	float:left;
+	background-color:rgba(255,255,255,0.1);
+	line-height:30px;
+	text-align:center;
+	color:white;
+	border-radius:5px;
+	cursor:pointer;
+}
+.boton-aceptar-cookies:hover{
+	background-color:rgba(255,255,255,0.2);
+}
+.boton-manifiesto-cookies{
+	width:100px;
+	height:30px;
+	position:relative;
+	float:right;
+	background-color:rgba(255,255,255,0.1);
+	line-height:30px;
+	text-align:center;
+	color:white;
+	border-radius:5px;
+	cursor:pointer;
+}
+.boton-manifiesto-cookies:hover{
+	background-color:rgba(255,255,255,0.2);
+}
+.boton-manifiesto-cookies a{
+	color:white;
+}
+/* COOKIES */
